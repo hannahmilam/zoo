@@ -31,7 +31,8 @@ function drawAnimals(){
 let template = ""
 zoo.forEach(a => template+= /*HTML*/ `
   <div class="col-3 p-3 text-center text-light">
-  <img src="${a.img}" class="animal-img" alt="${a.name}"> <h3 class="text-center">${a.name}</h3>
+  <img title="${a.name} is a ${a.animal} and their favorite food is ${a.favoriteFood}" src="${a.img}" class="animal-img" alt="${a.name}">
+  <h3 class="text-center">${a.name}</h3>
   </div>
 `)
 document.getElementById('animals').innerHTML = template

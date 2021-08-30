@@ -3,6 +3,11 @@
   height: 150px;
   width: 150px;
   border-radius: 50%;
+}
+
+.animal-img:hover{
+  transform: scale(1.2);
+  box-shadow:0px 0px 10px rgb(108, 223, 214);
 
 }
 
@@ -18,7 +23,7 @@ button {
   color: white;
   background-color: rgba(87, 216, 248, 0.582);
   border: none;
-  box-shadow: rgb(108, 223, 214);
+  box-shadow: 0px 0px 10px rgb(108, 223, 214);
   border-radius: 5px;
 }
 
